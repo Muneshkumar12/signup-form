@@ -141,10 +141,15 @@ function addData(){
         message.style.display = "block";
         message.innerHTML = "Your form has been submit successfully."
         message.style.color = "green";
-        console.log("Name....." , nameInput.value);
-        console.log("Email...." , emailInput.value);
-        console.log("Password...." , passwordInput.value);
-        console.log("Confirm Password...." , conPasswordInput.value);
+        var obj = [
+            {
+                name: nameInput.value,
+                email: emailInput.value,
+                password: passwordInput.value,
+                confpassword: conPasswordInput.value
+            }
+        ]
+        console.log(obj);
         setTimeout(() => {
             message.style.display = "none";
             nameInput.value = "";
