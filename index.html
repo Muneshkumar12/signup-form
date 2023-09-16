@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+    ">
+    <style>
+        #container{
+            background-color:#e8ebf7 ;
+            padding-top: 100px;
+            padding-bottom: 70px;
+        }
+        .data{
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #one{
+            height: 100%;
+            width: 50%;
+           background-color: #ffff;
+           padding: 30px 20px;
+        }
+        #two{
+            height: 100%;
+            width: 50%;
+            background-color: #87A798;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #two>div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #two>div>img{
+            width: 40px;
+            height: 40px;
+        }
+        #two>div>h2{
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
+        #two>div>p{
+            font-size: 12px;
+            color: white;
+        }
+        #two>div>button{
+            border: none;
+            background:none;
+            padding: 0px 5px 0px 5px;
+            border: 1px solid white;
+            border-radius: 10px;
+            color: white;
+        }
+         #signup>p{
+            color: gray;
+            font-size: 15px;
+            font-weight: 500;
+         }
+        #signup>div{
+            margin-top: 20px;
+        }
+        #signup>div>span{
+            color: gray;
+        }
+        #signup>div>input{
+            border: none;
+            border-bottom: 1px solid rgb(218, 213, 213);
+            width: 100%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -9px 10px -10px inset;
+            margin-top: 5px;
+        }
+        #otherOption{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #otherOption>button{
+            width: 100%;
+            background-color: #87A798;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            border: none;
+            border-radius: 10px;
+            height: 40px;
+            color: whitesmoke;
+        }
+        #otherOption>p{
+            display: flex;
+            flex-direction: row;
+            font-size: 15px;
+            color: gray;
+            margin-top: 10px;
+        }
+        #otherOption>p>button{
+            border: none;
+            background:none;
+            color: rgb(56, 56, 255);
+        }
+        #social{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+        }
+        #social>a>img{
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+        #message{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid" id="container">
+        <!-- <div class="row" >
+            <div class="col"></div>
+            <div class="col-11 col-md-11 col-sm-11 col-lg-8 col-xl-6 col-xxl-6 data" >
+                <div id="one">
+                   <div id="signup">
+                    <h2>Hello!</h2>
+                    <p>please signup to continue</p>
+                    <div>
+                        <span>Full name</span>
+                        <input type="text" placeholder="John">
+                    </div>
+                    <div>
+                        <span>Email address</span>
+                        <input type="email" placeholder="Johndoe@gmail.com">
+                    </div>
+                    <div>
+                        <span>Password</span>
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <div>
+                        <span>confirm Password</span>
+                        <input type="password" placeholder="confirm Password">
+                    </div>
+                    <div id="otherOption">
+                        <button>Sign up</button>
+                        <span>or</span>
+                        <span>signup with</span>
+                        <div id="social">
+                            <a href="#"><img src="./image/facebook.png" alt=""></a>
+                            <a href="#"><img src="./image/twitter.png" alt=""></a>
+                        </div>
+                        <p>I am Already a member <button>signin</button></p>
+                    </div>
+                   </div>
+                </div>
+                <div id="two">
+                    <div>
+                        <img src="./image/football.png" alt="football">
+                        <h2>Soccer Ball</h2>
+                        <p>Already have an account</p>
+                        <button>signin</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div> -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./pages/app.js"></script>
+</body>
+</html>
